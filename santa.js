@@ -14,3 +14,9 @@ const santaFunction = () => {
                 return acc -=1;
             }
             }, 0);
+            
+        console.log('floor:', floor);
+    });
+}
+
+santaFunction();
